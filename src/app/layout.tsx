@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import "./styles/posts.css";
+import "./styles/posts_modal.css";
+import { App as AntdApp  } from "antd";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <AntdApp>{children}</AntdApp>
       </body>
     </html>
   );
