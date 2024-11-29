@@ -11,7 +11,7 @@ A Next.js application for managing posts using JSONPlaceholder API with Ant Desi
 
 1. Clone the repository
 ```bash
-git clone https://github.com/magedmonirm97/post-management-app.git
+git clone https://github.com/magedmonirm97/dinamo-app.git
 cd dinamo-app
 ```
 
